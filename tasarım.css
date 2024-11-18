@@ -1,0 +1,106 @@
+
+/* Genel Sayfa Stili */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('kapodokya.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/* Container */
+.container {
+    background-color: rgba(255, 255, 255, 0.7); /* Yarı saydam beyaz arka plan */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    margin-top: 100px;  /* Üst kısma 100px boşluk bırakır */
+    
+}
+
+/* Header */
+header h1 {
+    color: #ff4d94; /* Sevgiliye hitap için tatlı bir pembe */
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.subheading {
+    color: #ff80bf;
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+/* Mesaj */
+.message p {
+    font-size: 1.5em;
+    color: #333;
+    line-height: 1.8;
+    margin: 20px 0;
+}
+/* Müzik Kontrolü */
+.music {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.music audio {
+    width: 100%; /* Müzik kontrol panelini sayfa genişliğine yaymak */
+    border-radius: 10px;
+}
+
+/* Fotoğraf */
+.photo-img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Kalp Tasarımı */
+.heart {
+    width: 100px;
+    height: 100px;
+    background-color: #ff4d94;
+    position: relative;
+    margin: auto;
+    transform: rotate(45deg);
+    margin-top: 40px;
+}
+
+.heart:before, .heart:after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #ff4d94;
+    border-radius: 50%;
+}
+
+.heart:before {
+    top: -50px;
+    left: 0;
+}
+
+.heart:after {
+    top: 0;
+    left: -50px;
+}
+
+/* Footer */
+footer p {
+    font-size: 1.2em;
+    color: #ff4d94;
+    font-weight: bold;
+    margin-top: 20px;
+}
